@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// teste do site
 int main(void){
     int num = 0;
     while ( num != 42){
