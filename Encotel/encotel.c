@@ -5,7 +5,7 @@
 #define NUM 20
 
 /*  TROCAR NOME POR TELEFONE
-
+    AO ENTRAR COM O PARAMETRO SEM O "<" COMO PARAMETRO, O CODIGO FUNCIONA
 */
 char valor (char *str, int i);
 char *cria_string ();
