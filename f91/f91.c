@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 int f91(int num);
-
 int main(void){
     int N, num_f91;
     do{
