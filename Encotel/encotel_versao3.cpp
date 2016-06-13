@@ -9,7 +9,7 @@
 using namespace std;
 
 /*  TROCAR NOME POR TELEFONE
-
+    SERIA MELHOR USAR O MAP, MAS NÃO FUNCIONOU LEGAL... ENTÃO FIZ DO JEITO MAIS FÁCIL
 */
 void preencer_map ( map<string, int> &mp);
 char valor (char str);
