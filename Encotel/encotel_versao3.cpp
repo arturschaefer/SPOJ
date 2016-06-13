@@ -30,7 +30,6 @@ int main(){
         }
 
         cout << saida << endl;
-        //free(saida);
         saida = NULL;
         completo.clear();
         // cout << saida << endl;
@@ -60,32 +59,4 @@ char *cria_string ( int tam ){
 void libera_string (char *str){
     free(str);
     str = NULL;
-}
-
-void preencer_map ( map<string, int> &mp){
-    mp.insert(pair<string, int>("A", 2));
-    mp.insert(pair<string, int>("B", 2));
-    mp.insert(pair<string, int>("C", 2));
-    mp.insert(pair<string, int>("D", 3));
-    mp.insert(pair<string, int>("E", 3));
-    mp.insert(pair<string, int>("F", 3));
-    mp.insert(pair<string, int>("G", 4));
-    mp.insert(pair<string, int>("H", 4));
-    mp.insert(pair<string, int>("I", 4));
-    mp.insert(pair<string, int>("J", 5));
-    mp.insert(pair<string, int>("K", 5));
-    mp.insert(pair<string, int>("L", 5));
-    mp.insert(pair<string, int>("M", 6));
-    mp.insert(pair<string, int>("N", 6));
-    mp.insert(pair<string, int>("O", 6));
-    mp.insert(pair<string, int>("P", 7));
-    mp.insert(pair<string, int>("Q", 7));
-    mp.insert(pair<string, int>("S", 7));
-    mp.insert(pair<string, int>("T", 8));
-    mp.insert(pair<string, int>("U", 8));
-    mp.insert(pair<string, int>("V", 8));
-    mp.insert(pair<string, int>("W", 9));
-    mp.insert(pair<string, int>("X", 9));
-    mp.insert(pair<string, int>("Y", 9));
-    mp.insert(pair<string, int>("Z", 9));
 }
